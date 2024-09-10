@@ -68,6 +68,6 @@ app.get('/deposits', async (req, res) => {
 
 
 app.listen(port, () => {
-  console.log(`Deposit tracker API listening at http://localhost:3000/deposits`);
+  console.log(`Deposit tracker API listening at http://localhost:${port}/deposits`);
 });
 
